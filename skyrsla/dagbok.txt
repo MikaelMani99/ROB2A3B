@@ -1,2 +1,9 @@
-14/12/2016
-Bjó til dagbók og uppfærði skýrslu
+﻿18/1/2018
+clone-aði rob2b3u af github og gerði mitt eigið repository
+25/1/2018
+samsetning af róbota
+1/2/2018
+byrjaði að tengja motorana við robotan
+9/2/2018
+Lagaði alla víra og náði robotanum til að keyra
+
