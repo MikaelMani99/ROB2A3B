@@ -6,4 +6,8 @@ samsetning af róbota
 byrjaði að tengja motorana við robotan
 9/2/2018
 Lagaði alla víra og náði robotanum til að keyra
+13/2/2018
+Bætt við myndvél og fengið hana til að virka
+23/2/2018
+fundið leið til að stream-a videoinu frá pi-inu til web browser
 
