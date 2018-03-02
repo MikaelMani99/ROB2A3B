@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+}
+.col-1-2{
+  width: 50%;
+}
+.mynd{
+  width: 720;
+  height: 300;
+}
+  
