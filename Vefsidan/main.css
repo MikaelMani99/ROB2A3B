@@ -1,11 +1,29 @@
 .container{
   display: flex;
+  flex-direction: column;
 }
+
+.controls{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px;
+}
+
+.screen{
+	display: flex;
+	justify-content: center;
+}
+
+.pccontrols{
+	margin-right: 50px;
+}
+
 .col-1-2{
   width: 50%;
 }
 .mynd{
   width: 720;
   height: 300;
+  border: 1px solid black;
 }
-  
