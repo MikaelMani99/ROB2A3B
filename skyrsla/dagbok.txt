@@ -10,4 +10,12 @@ Lagaði alla víra og náði robotanum til að keyra
 Bætt við myndvél og fengið hana til að virka
 23/2/2018
 fundið leið til að stream-a videoinu frá pi-inu til web browser
+2/3/2018
+configureað video streamið
+Lagað vírana á pi-inu.
+9/3/2018
+fokkaði upp myndavélini
+fokkaði upp pi-inu
+reinstallaði os á pi-ið
+lagaði myndavélina á pi-inu nokkurn veginn.
 
