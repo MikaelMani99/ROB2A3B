@@ -10,8 +10,13 @@ Unnið í verkafnaáætlun, lýsingu á vélbúnað osfrv.
 23/02/2018
 Byrjað að skrifa þessa dagbók, hlutir sem eru á undan þessum dag eru skrifuð eftir það sem ég pushaði á github
 
-27/02/2018
-
-
-03/02/2018
+02/03/2018
 Unnið í vefsíðunni sem verður notuð til að stjórna robotinum
+
+06/03/2018
+Skrifað upp basic sauðakóða fyrir hvað robotinn gerir, unnið í vefsíðunni meira
+
+09/03/2018
+Árekstrur var í öðrum áfanga
+
+13/03/2018
