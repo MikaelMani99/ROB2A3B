@@ -17,3 +17,7 @@ for row in cur.fetchall():
     print row[0]
 
 db.close()
+#til að fá nýjasta inputið í töfluna
+  #SELECT action FROM direction
+  #ORDER BY id DESC
+  #LIMIT 1
