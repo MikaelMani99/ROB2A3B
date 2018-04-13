@@ -14,8 +14,24 @@ fundið leið til að stream-a videoinu frá pi-inu til web browser
 configureað video streamið
 Lagað vírana á pi-inu.
 9/3/2018
-fokkaði upp myndavélini
+fokkaði upp myndavélinni
 fokkaði upp pi-inu
 reinstallaði os á pi-ið
 lagaði myndavélina á pi-inu nokkurn veginn.
+14/3/2018
+lagað myndavélina og er núna stable
+16/3/2018
+setti upp phpmyadmin lenti í smá vandræðum með það
+þar sem til að logga inn notaru ekkert pw en þú þarft
+að setja inn pw til að ekki fá error
+21/3/2018
+lenti í vandræðum með motorona en lagaði það 
+6/4/2018
+fann leið til að tengjast við sql server með python
+11/4/2018
+bjó aftur til prufu forrit sem keyrir motorona með python
+þar sem ég gleymdi að uploada því á github og það eyddist út
+13/4/2018
+breytti um dekk á robotinum
+byrjaði á aðal forritinu sem robotinn keyrir
 
