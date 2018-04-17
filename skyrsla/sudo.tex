@@ -1,10 +1,19 @@
-\section{Flæðirit og sauðakóði}Hér skal gera flæðirit og sauðakóða nýtið ykkur https://draw.io. Þegar þið hafið lokið að gera flæðiritið farið í export-image og vistið grafið í skyrsla/img meðnafni "flowhart". í Þessu skjali skuluð þið gera sauðakóða 
+\section{Flæðirit og sauðakóði}Hér skal gera flæðirit og sauðakóða nýtið ykkur https://draw.io. Þegar þið hafið lokið að gera flæðiritið farið í export-image og vistið grafið í skyrsla/img meðnafni "flowchart". í Þessu skjali skuluð þið gera sauðakóða 
 dæmi:\\
-loop forewer\{
-  Output camera image to website\\
-   if user gives input from website\\
+robot code:\\
+loop forever\{
+   stream camera image\\
+   read newest movement command from database\\
    perform input movement\\
 \}
+website code:\\
+loop forever\{
+   output camera image to website\\
+   create control pad for user to use\\
+   if user presses a button send movement command to database\\
+   when user lets go of button send stop command to database\\
+\}
+
 \begin{figure}[h]
 \includegraphics[scale=.3]{img/Diagram}
 \end{figure}

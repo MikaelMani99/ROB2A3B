@@ -275,21 +275,35 @@
   ?>
 
 <html>
-   <head>
-      <meta name="viewport" content="width=550, initial-scale=1">
-      <title><?php echo CAM_STRING; ?></title>
-      <link rel="stylesheet" href="css/style_minified.css" />
-      <link rel="stylesheet" href="<?php echo getStyle(); ?>" />
-      
-      <script src="js/style_minified.js"></script>
-      <script src="js/script.js"></script>
-      <script src="js/pipan.js"></script>
-   </head>
-   <body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">  
-      <div class="container-fluid text-center liveimage">
+<head>
+   <title>ROBO3RF05BU</title>
+   <meta name="viewport" content="width=550, initial-scale=1">
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="css/style_minified.css" />
+   <link rel="stylesheet" href="<?php echo getStyle(); ?>" />
+   <script src="js/style_minified.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/pipan.js"></script>
+<head>
+<body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">  
+  <div class="container">
+    <div class="container-fluid text-center liveimage">
          <div><img id="mjpeg_dest" <?php echo getLoadClass() . getImgWidth();?>
-		 <?php if(file_exists("pipan_on")) echo "ontouchstart=\"pipan_start()\""; ?> onclick="toggle_fullscreen(this);" src="./loading.jpg"></div>
+       <?php if(file_exists("pipan_on")) echo "ontouchstart=\"pipan_start()\""; ?> onclick="toggle_fullscreen(this);" src="./loading.jpg"></div>
+    </div>
+    <div class="controls">
+      <div class="pccontrols">
+        <img src="arrows.png">
+        <div class="text">
+          <p>To Control the robot you can use your arrow keys</p>
+        </div>
       </div>
-
-   </body>
-</html>
+      <div class="phonecontrols">
+        <img src="phoneInstructions.jpg" width="350">
+        <div class="text">
+          <p>And if you are using a phone, you can control the robot by tilting it</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
