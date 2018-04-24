@@ -19,20 +19,22 @@ GPIO.setup(Motor1E,GPIO.OUT)
 GPIO.setup(Motor2A,GPIO.OUT)
 GPIO.setup(Motor2B,GPIO.OUT)
 GPIO.setup(Motor2E,GPIO.OUT)
-#Connect to database
-db = MySQLdb.connect(host="localhost", user="root", passwd="admin", db="Gagnagrunnur")
-# you must create a Cursor object. It will let you execute all the queries you need
-cur = db.cursor()
+
 while True:
+    #Connect to database
+    db = MySQLdb.connect(host="localhost", user="root", passwd="admin", db="Gagnagrunnur")
+    # you must create a Cursor object. It will let you execute all the queries you need
+    cur = db.cursor()
     # Fetching data from the database
     cur.execute("SELECT action FROM direction ORDER BY id DESC LIMIT 1")
     # print all the first cell of all the rows
     data = cur.fetchall()
-    if data == "stop":
+    print(data[0][0])
+    if data[0][0] == "stop":
         GPIO.output(Motor1E, GPIO.LOW)
         GPIO.output(Motor2E, GPIO.LOW)
-        sleep(1)
-    elif data == "forward":
+
+    elif data[0][0] == "forward":
         GPIO.output(Motor1A,GPIO.HIGH)
         GPIO.output(Motor1B,GPIO.LOW)
         GPIO.output(Motor1E,GPIO.HIGH)
@@ -40,8 +42,8 @@ while True:
         GPIO.output(Motor2A,GPIO.HIGH)
         GPIO.output(Motor2B,GPIO.LOW)
         GPIO.output(Motor2E,GPIO.HIGH)
-        sleep(1)
-    elif data == "backward":
+
+    elif data[0][0] == "backward":
         GPIO.output(Motor1A,GPIO.HIGH)
         GPIO.output(Motor1B,GPIO.HIGH)
         GPIO.output(Motor1E,GPIO.LOW)
@@ -49,8 +51,8 @@ while True:
         GPIO.output(Motor2A,GPIO.HIGH)
         GPIO.output(Motor2B,GPIO.HIGH)
         GPIO.output(Motor2E,GPIO.LOW)
-        sleep(1)
-    elif data == "left":
+
+    elif data[0][0] == "left":
         GPIO.output(Motor1A,GPIO.HIGH)
         GPIO.output(Motor1B,GPIO.LOW)
         GPIO.output(Motor1E,GPIO.HIGH)
@@ -58,8 +60,8 @@ while True:
         GPIO.output(Motor2A,GPIO.HIGH)
         GPIO.output(Motor2B,GPIO.HIGH)
         GPIO.output(Motor2E,GPIO.LOW)
-        sleep(1)
-    elif data == "right":
+
+    elif data[0][0] == "right":
         GPIO.output(Motor2A,GPIO.HIGH)
         GPIO.output(Motor2B,GPIO.LOW)
         GPIO.output(Motor2E,GPIO.HIGH)
@@ -67,7 +69,7 @@ while True:
         GPIO.output(Motor1A,GPIO.HIGH)
         GPIO.output(Motor1B,GPIO.HIGH)
         GPIO.output(Motor1E,GPIO.LOW)
-        sleep(1)
+
 db.close()
 #til að fá nýjasta inputið í töfluna
   #SELECT action FROM direction
