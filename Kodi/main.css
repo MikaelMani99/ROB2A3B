@@ -1,0 +1,55 @@
+body {
+	background-color: #ecf0f1;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 1600px;  
+  margin: auto;
+}
+
+.mynd{
+  width: 900; 
+  height: 506;
+
+}
+
+
+.liveimage{
+	display: flex;
+	justify-content: center;
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*
+  Controls Flex box
+*/
+.controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.pccontrols{
+  position: relative;
+	margin-right: 20em;
+}
+.phonecontrols {
+  position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    background: rgba(52, 73, 94, .5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
