@@ -1,62 +1,34 @@
 26/01/2018
 Unnið í verkefnalýsingu
-
 30/01/2018
 Klárað verkefnalýsingu
-
 2/02/2018 - 20/2/2018
 Unnið í verkafnaáætlun, lýsingu á vélbúnað osfrv.
-
 23/02/2018
 Byrjað að skrifa þessa dagbók, hlutir sem eru á undan þessum dag eru skrifuð eftir það sem ég pushaði á github
-
 02/03/2018
 Unnið í vefsíðunni sem verður notuð til að stjórna robotinum
-
 06/03/2018
 Skrifað upp basic sauðakóða fyrir hvað robotinn gerir, unnið í vefsíðunni meira
-
 09/03/2018
 Árekstrur var í öðrum áfanga
-
 13/03/2018-04/10/2018
 Gleymt að skrifa upp í dagbók
-
 10/04/2018
 Bætt við sauðakóða fyrir hvernig vefsíðan og robotinn mun virka, unnið meira í robot sjálfum
-
 13/04/2018
 Árekstur
-
 17/04/2018
 Breytt hardware skýrslu, update-að dagbók, unnið á html og css
-
 20/04/2018
 Árekstur
-
 24/04/2018
 Hjálpað Mikka með að gera vinna verkefnið
-
 27/04/2018
 Árekstur
-
 01/05/2018
 Frí dagur
-
 04/05/2018
 Hjálpað Mikael með að laga vefsíðuna sem hann gerði, náð robot til að virka
-
 08/05/2018
 Klárað allar skýrslur og gert þær til að prenta út
-
-
-
-
-
-
-
-
-
-
-
-
