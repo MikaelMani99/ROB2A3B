@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿26/01/2018
+=======
+26/01/2018
+>>>>>>> 8622bb3d941269a638f67d01484fecda46a442b1
 Unnið í verkefnalýsingu
 30/01/2018
 Klárað verkefnalýsingu
@@ -31,4 +35,8 @@ Frí dagur
 04/05/2018
 Hjálpað Mikael með að laga vefsíðuna sem hann gerði, náð robot til að virka
 08/05/2018
+<<<<<<< HEAD
 Klárað allar skýrslur og gert þær til að prenta út
+=======
+Klárað allar skýrslur og gert þær til að prenta út
+>>>>>>> 8622bb3d941269a638f67d01484fecda46a442b1
