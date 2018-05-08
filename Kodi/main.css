@@ -1,0 +1,73 @@
+.container{
+	width: 100%;
+	height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.liveimage{
+	display: flex;
+	justify-content: center;
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.mynd{
+	background-color: #383737;
+	height: 65%;
+}
+.pcText{
+	width: 50%;
+}
+.pcControls{
+	padding-top: 2%;
+	background-color: #BFBBBA;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content:space-evenly;
+}
+.arrow{
+	background-color: #575554;
+	width: 5em;
+	height: 5em;
+}
+.keybinds{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.keybinds div{
+	height: 5em;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.right{
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.up{
+
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.down{
+	-webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
