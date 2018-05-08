@@ -71,7 +71,3 @@ while True:
         GPIO.output(Motor1E,GPIO.LOW)
 
 db.close()
-#til að fá nýjasta inputið í töfluna
-  #SELECT action FROM direction
-  #ORDER BY id DESC
-  #LIMIT 1
