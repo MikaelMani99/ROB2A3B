@@ -1,45 +1,37 @@
 (function(){
-addEventListener("keyup", function(e){
-    e = e || window.event;
-    insertInto("stop");
-}, false);
+
+let left = document.getElementById("left");
+let right = document.getElementById("right");
+let up = document.getElementById("up");
+let down = document.getElementById("down");
 addEventListener("keydown", function(e){
     e = e || window.event;
     if (e.keyCode == '37') {
-      insertInto("left");
+      left.setAttribute("src", "green-arrow.svg");
     }
     else if (e.keyCode == '39') {
-      insertInto("right");
+      right.setAttribute("src", "green-arrow.svg");
     }
     else if(e.keyCode == "38"){
-      insertInto("forward");
+      up.setAttribute("src", "green-arrow.svg");
     }
     else if(e.keyCode == "40"){
-      insertInto("backward");
-    }
-    else if(e.keyCode == "32"){
-      insertInto("stop");
+      down.setAttribute("src", "green-arrow.svg");
     }
 }, false);
-
-
-
-function insertInto(direction) {
-    // AJAX code to send data to php file.
-        $.ajax({
-            type: "POST",
-            url: "insert-data.php",
-            data: {direct:direction},
-            dataType: "JSON",
-            success: function(data) {
-             $("#message").html(data);
-            $("p").addClass("alert alert-success");
-            },
-            error: function(err) {
-            alert(err);
-            }
-        });
-
-}
-
+addEventListener("keyup", function(e){
+    e = e || window.event;
+    if (e.keyCode == '37') {
+      left.setAttribute("src", "arrow.svg");
+    }
+    else if (e.keyCode == '39') {
+      right.setAttribute("src", "arrow.svg");
+    }
+    else if(e.keyCode == "38"){
+      up.setAttribute("src", "arrow.svg");
+    }
+    else if(e.keyCode == "40"){
+      down.setAttribute("src", "arrow.svg");
+    }
+}, false);
 })();
