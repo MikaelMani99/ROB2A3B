@@ -34,4 +34,24 @@ bjó aftur til prufu forrit sem keyrir motorona með python
 13/4/2018
 breytti um dekk á robotinum
 byrjaði á aðal forritinu sem robotinn keyrir
+17/4/2018
+klárað forrit.py og unnið að stíla vefsíðuna
+20/4/2018
+gert kóða til að uploada skipunum sem robotinn les síðan með forrit.py
+24/4/2018
+unnið í upload kóðanum
+27/4/2018
+unnið í upload kóðanum
+01/5/2018
+Verkalýðsdagurinn
+04/5/2018
+unnið við að tengja allt saman þannig allt virkar
+05/5/2018
+fengið allt til að virka, restartaði svo pi-inu og núna vill pi-ið ekki 
+starta os þannig ég neiddist til að reinstalla os
+11/5/2018
+Installað öllu aftur á pi-ið
+sett allt upp
+keyrði hann og tók upp
+tók myndir
 
