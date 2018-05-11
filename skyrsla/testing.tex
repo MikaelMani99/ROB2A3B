@@ -1,8 +1,18 @@
 \section{Prófanir}
 1. Prófanir á robot
 Prófanirnar á robot 
+Búið til og tengt robot.
+Tengt alla mótóra og sett upp 
+Enable-a SSH og camera á raspberry Pi-inu. Með því að fara í preferences->raspberry pi configuration->interfaces->velja enable á camera og ssh
+Sett upp Apache PHP og MySQL. - \cite{stewright}
+Sett upp PHPmyadmin - \cite{stewright2}
+RPI Cam web interaface - \cite{elinux}
+Setja upp vefsíðu.
+Búa til python file, láta það keyra á startup með það að keyra það í /etc/rc.local
+Farið í gegnum þetta ferli þrisvar vegna þess að Pi-ið dó tvisvar, fyrsta skipti fór það í endalausa  loop-u að restarta sér og í seinna skiptið vildi það ekki launcha stýrikerfinu vegnaþess að það corrupt-aðist eitthvað
 
 2. Prófanir á vefsíðu
 Prófanirnar á vefsíðu voru á mestu leiti bara að reyna að ná camera til að virka á vefinum. 
 Þegar það var búið að ná því til að virka var það bara að búa til vefsíðu sem birtir camera stream-ið og tekur inn input frá notanda til að stjórna því.
 Mikael gerði function sem keyrði event listener á örvatökkunum þannig ef það er ýtt á þá er notað ajax til að uploada commands á database-inn.
+Vefsíðan virkaði öll frekar vel frá byrjun, Mikki lagaði stylesheet-ið og lagaði villu í python file-inu sem var ekki að lesa stop command rétt.
